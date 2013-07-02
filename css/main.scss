@@ -1,0 +1,76 @@
+/* Grid and SCSS Framework */
+
+@import "bourbon/bourbon";
+$visual-grid: true;
+@import "neat/neat";
+
+/* Google Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Slab:400,300);
+
+/* Global */
+
+.container {
+  @include outer-container;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+.header {
+ /* background-color: #16a085; */
+  min-height: 650px;
+}
+
+/* Index Heading */
+
+.title {
+  @include span-columns(6);
+  @include shift(3);
+  @include pad();
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 64px;
+}
+
+.bio {
+  @include span-columns(12);
+  @include pad();
+}
+
+.bio p {
+  @include pad();
+  @include span-columns(6 of 12);
+  text-align: center;
+}
+
+.curly_beg {
+  font-size: 150px;
+  @include span-columns(3 of 12);
+  text-align: right;
+}
+
+.curly_end {
+  @extend .curly_beg;
+  text-align: left;
+}
+
+/* Links */
+
+/* Blog Post Summaries */
+
+.blog_summaries {
+  /* background-color: #34495e; */
+  min-height: 650px;
+  h1 {
+    @include span-columns(6);
+    @include shift(3);
+    @include pad();
+    height: 30px;
+  }
+}
+
+.posts {
+  @include span-columns(8);
+}
