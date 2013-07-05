@@ -10,7 +10,7 @@ title: Zachgersh is ready
       <div class="title">{{ post.title }}</div>
       <div class="date">{{ post.date | date: "%d</br>%b</br>%Y" }}</div>
       <div class="excerpt">{{ post.excerpt }}</div>
-      <div class="read_more">Continue</div>
+      <div class="read_more"><a href="{{ post.url }}">Continue</a></div>
     </section>
   {% endfor %}
 </div>

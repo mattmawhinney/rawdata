@@ -1,9 +1,33 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-<div class="post">
-{{ content }}
-</div>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/post.css">
+
+    <!-- Font Awesome -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="post_color">
+      <div class="container">
+        <h2>{{ page.title }}</h2>
+        <p class="meta">{{ page.date | date_to_string }}</p>
+
+        <div class="post">
+        {{ content }}
+        </div>
+
+        <div class="back">
+          <a href="">
+            back to home
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
