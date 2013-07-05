@@ -6,30 +6,34 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+
+        <!-- Font Awesome -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-          <div class="decorator"></div>
-          <div class="header">
-            <div class="title">
-              ZG
-            </div>
-            <div class="bio">
-              <div class="curly_beg">{</div>
-                <p> blah blah blah blah</p>
-              <div class="curly_end">}</div>
-            </div>
-            <div class="links">
-            </div>
+    <div class="color_bio">
+        <div class="decorator"></div>
+        <div class="header">
+          <div class="title">
+            ZG
           </div>
-          <div class="blog_summaries">
+          <div class="bio">
+            <div class="curly_beg">{</div>
+              <p> blah blah blah blah</p>
+            <div class="curly_end">}</div>
+          </div>
+          <div class="links">
+              <i class="icon-github-alt icon-4x"></i>
+              <i class="icon-twitter icon-4x"></i>
+              <i class="icon-linkedin icon-4x"></i>
+              <i class="icon-instagram icon-4x"></i>
+          </div>
+        </div>
+      </div>
+        <div class="color_blog">
             {{ content }}
-          </div>
-        </div> <!-- /container -->
+        </div>
     </body>
 </html>

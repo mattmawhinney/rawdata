@@ -1,7 +1,7 @@
-/* Grid and SCSS Framework */
 
+/* Grid and SCSS Framework */
 @import "bourbon/bourbon";
-$visual-grid: true;
+@import "grid-settings";
 @import "neat/neat";
 
 /* Google Fonts */
@@ -10,24 +10,37 @@ $visual-grid: true;
 
 /* Global */
 
-.container {
-  @include outer-container;
-}
-
-p {
+body {
+  padding: 0;
+  margin: 0;
   font-family: 'Roboto Slab', serif;
 }
 
 .header {
- /* background-color: #16a085; */
-  min-height: 650px;
+  @include outer-container;
+}
+
+.color_bio {
+  background-color: #16a085;
+  min-height: 560px;
+}
+
+.color_blog {
+  background-color: #34495e;
+  min-height: 560px;
+}
+
+a {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: #000000;
 }
 
 /* Index Heading */
 
 .title {
-  @include span-columns(6);
-  @include shift(3);
+  @include span-columns(12);
   @include pad();
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -58,19 +71,64 @@ p {
 
 /* Links */
 
-/* Blog Post Summaries */
 
-.blog_summaries {
-  /* background-color: #34495e; */
-  min-height: 650px;
-  h1 {
-    @include span-columns(6);
-    @include shift(3);
+.links {
+  @include span-columns(12);
+  i {
+    @include span-columns(3);
     @include pad();
-    height: 30px;
+    text-align: center;
   }
 }
 
-.posts {
-  @include span-columns(8);
+/* Blog Post Summaries */
+
+.blog_summaries {
+  @include outer-container;
+  min-height: 650px;
+  h1 {
+    @include span-columns(12);
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 64px;
+  }
+  h1:after {
+    content: '';
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    height: 2px;
+    left: 45%;
+    width: 100px;
+    background-color: #000000;
+  }
+
+}
+
+.title {
+  @include span-columns(12);
+  font-size: 48px;
+  text-align: center;
+}
+
+.date {
+  @include span-columns(3);
+  text-align: right;
+  border-right: solid 5px;
+  padding-right: 2px;
+}
+
+.excerpt {
+  @include span-columns(7);
+  @include omega();
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.read_more {
+  @include span-columns(10);
+  margin-top: 10px;
+  text-align: right;
 }

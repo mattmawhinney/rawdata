@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Zachgersh is ready
 ---
 
-<div id="home">
+<div class="blog_summaries">
   <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+    <section>
+      <div class="title">{{ post.title }}</div>
+      <div class="date">{{ post.date | date: "%d</br>%b</br>%Y" }}</div>
+      <div class="excerpt">{{ post.excerpt }}</div>
+      <div class="read_more">Continue</div>
+    </section>
+  {% endfor %}
 </div>
