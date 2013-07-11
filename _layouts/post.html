@@ -11,22 +11,22 @@
 
     <!-- Font Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
   </head>
   <body>
+    <div class="decorator"></div>
     <div class="post_color">
       <div class="container">
-        <h2>{{ page.title }}</h2>
-        <p class="meta">{{ page.date | date_to_string }}</p>
+        <div class="title">
+          <h1>{{ page.title }}</h1>
+        </div>
+        <h3 class="meta">{{ page.date | date: "%b-%d-%Y" }}</h3>
 
-        <div class="post">
+       <div class="post">
         {{ content }}
         </div>
 
-        <div class="back">
-          <a href="">
-            back to home
-          </a>
-        </div>
+        <a class="back" href="/"><div class="button">BACK</div></a>
       </div>
     </div>
   </body>

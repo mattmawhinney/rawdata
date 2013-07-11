@@ -1,0 +1,79 @@
+/* Grid and SCSS Framework */
+
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+/* Google Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Slab:400,300);
+
+/* Global */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+  @include outer-container();
+}
+
+.post_color {
+  background-color: #3498db;
+  min-height: 780px;
+}
+
+a {
+  color: #c0392b;
+  text-decoration: none;
+  &:hover {
+  }
+}
+
+
+/* Decorator */
+
+.decorator {
+  min-height: 15px;
+  background-color: #16a085;
+}
+
+/* Post Title */
+
+.title {
+  @include span-columns(12);
+  text-align: center;
+}
+
+h3.meta {
+  @extend .title;
+  margin-top: 5px;
+}
+
+/* Post Body */
+
+.post {
+  @include span-columns(8);
+  @include shift(2);
+}
+
+/* The Button */
+
+.button {
+  @include span-columns(2);
+  @include shift(5);
+  @include pad(15px 10px 10px 10px);
+  width: 160px;
+  background-color: #CCCCCC;
+  height: 58px;
+}
+
+a.back {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}

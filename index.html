@@ -7,10 +7,10 @@ title: Zachgersh is ready
   <h1>Blog Posts</h1>
   {% for post in site.posts %}
     <section>
-      <div class="title">{{ post.title }}</div>
+      <a href="{{ post.url }}"><div class="title">{{ post.title }}</div></a>
       <div class="date">{{ post.date | date: "%d</br>%b</br>%Y" }}</div>
       <div class="excerpt">{{ post.excerpt }}</div>
-      <div class="read_more"><a href="{{ post.url }}">Continue</a></div>
+      <div class="read_more"><a href="{{ post.url }}">Read</a></div>
     </section>
   {% endfor %}
 </div>

@@ -132,8 +132,10 @@ a {
 }
 
 .read_more {
-  @include span-columns(10);
+  @include span-columns(1);
+  @include shift(9);
   margin-top: 10px;
-  text-align: right;
+  text-align: left;
+  font-weight: bold;
 }
 
