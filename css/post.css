@@ -58,25 +58,26 @@ a {
   background-color: #16a085; }
 
 /* Post Title */
-.title, h3.meta {
+.title, p.meta {
   display: block;
   float: left;
   margin-right: 2.35765%;
   width: 100%;
   text-align: center; }
-  .title:last-child, h3.meta:last-child {
+  .title:last-child, p.meta:last-child {
     margin-right: 0; }
 
-h3.meta {
-  margin-top: 5px; }
+p.meta {
+  margin-top: 5px;
+  font-style: italic; }
 
 /* Post Body */
 .post {
   display: block;
   float: left;
   margin-right: 2.35765%;
-  width: 65.88078%;
-  margin-left: 17.05961%; }
+  width: 48.82117%;
+  margin-left: 25.58941%; }
   .post:last-child {
     margin-right: 0; }
 

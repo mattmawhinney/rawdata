@@ -110,20 +110,22 @@ a {
 }
 
 .title {
-  @include span-columns(12);
+  @include span-columns(8);
+  @include shift(2);
   font-size: 48px;
   text-align: center;
 }
 
 .date {
-  @include span-columns(3);
+  @include span-columns(1);
+  @include shift(2);
   text-align: right;
   border-right: solid 5px;
   padding-right: 2px;
 }
 
 .excerpt {
-  @include span-columns(7);
+  @include span-columns(6);
   @include omega();
   p {
     padding: 0px;
@@ -133,9 +135,9 @@ a {
 
 .read_more {
   @include span-columns(1);
-  @include shift(9);
+  @include shift(8);
   margin-top: 10px;
-  text-align: left;
+  text-align: right;
   font-weight: bold;
 }
 
