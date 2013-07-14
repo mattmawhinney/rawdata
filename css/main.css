@@ -169,7 +169,8 @@ a {
   float: left;
   margin-right: 2.35765%;
   width: 48.82117%;
-  margin-right: 0; }
+  margin-right: 0;
+  margin-top: -5px; }
   .excerpt:last-child {
     margin-right: 0; }
   .excerpt p {
