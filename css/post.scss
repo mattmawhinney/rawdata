@@ -78,3 +78,11 @@ a.back {
   text-align: center;
   color: #000000;
 }
+
+/* Comment section */
+
+.comments {
+  @include span-columns(6);
+  @include shift(3);
+  @include pad();
+}
