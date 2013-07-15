@@ -4,7 +4,7 @@ layout: post
 
 There are a ton of great resources all over the internet (including a
 very awesome wiki) on the materials you should be studying before
-attending Dev Bootcamp.  Inevitably, each studnent makes up their own
+attending Dev Bootcamp.  Inevitably, each student makes up their own
 Frankenstein of a study guide by cobbling together content from a myriad of
 different message boards, wikis and blogs.  I've done no differently,
 curating my own set of ebooks and sites from which I have either learned a
