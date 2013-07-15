@@ -8,22 +8,22 @@ attending Dev Bootcamp.  Inevitably, each studnent makes up their own
 Frankenstein of a study guide by cobbling together content from a myriad of
 different message boards, wikis and blogs.  I've done no differently,
 curating my own set of ebooks and sites from which I have either learned a
-ton or loathed (they are provided at the very end, scroll to bottom if 
+ton or loathed (a selection is provided at the very end, scroll to bottom if 
 feeling impatient).    
 
 However...
 
-Providing my list, while helpful, still leaves a lot unsaid.  While I
-have read plenty of great write ups about the best tutorials for
-learning control flow I have always felt there was a distinct lack of
+Providing my list, while helpful, still leaves a lot unsaid.  I
+have read plenty of great write ups about the best tutorials and how to
+progress through them yet I have always felt there was a distinct lack of
 practical advice that a new programmer can immediately apply.  Advice
 that could be remixed and handed directly to other new programmers in an
 endless loop of blogging tradition.
 
-I wanted to fill that gap and it is my hope that most of this advice is 
-immediately actionable or will be once you reach a certain point in your 
-journey.  This is only a base, there is no way that one could ever compile 
-a complete list as there is always so much that you do not know in development.
+I wanted to attempt to fill that gap and it is my hope that most of this advice is 
+immediately actionable.  This is only a jumping off point in an endless
+quest for enlightenment so try not to worry too much about everything
+you do not know.
 
 With that said:
 
@@ -53,6 +53,7 @@ appear as complete and utter magic without some Ruby in your repitore
 magic sometimes).  Take the time to go through a good intro Ruby
 tutorial like this:
 
+[Jumpstart Labs Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html)
 
 ### Give Yourself time Before you Google ###
 
@@ -134,3 +135,23 @@ interesting.  Forget most, if not all of what I said and you will be
 fine.
 
 ## Bonus, my links ##
+
+Links go in order of advancing difficulty:
+
+[Rubeque](http://www.rubeque.com/)
+
+[Jumpstart labs](http://tutorials.jumpstartlab.com/)
+
+[Beginners guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
+
+[Testfirst.org](http://testfirst.org/learn_ruby)
+
+[Bastards book of Ruby](http://ruby.bastardsbook.com/)
+
+[How to think like a computer
+scientist](http://interactivepython.org/courselib/static/thinkcspy/index.html)
+
+[Active record deep
+dive](http://schneems.com/post/28125445535/active-record-deep-dive)
+
+[Algorithm design with Ruby](http://www.brpreiss.com/books/opus8/)
