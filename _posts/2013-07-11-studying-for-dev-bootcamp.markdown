@@ -114,8 +114,8 @@ purchasing the Well Grounded Rubyist ebook :)
 
 ### Find a dev and become friends with them ###
 
-You must have a developer BatPhone.  Behind every good developer is
-another good developer who she/he can on for advice and/or problem
+You must have a developer Bat Phone.  Behind every good developer is
+another good developer who can be called upon for advice and/or problem
 solving assistance.  I don't think I would be where I am today without
 all of my dev friends being extremely generous with their time and
 having extreme patience with my newness.
