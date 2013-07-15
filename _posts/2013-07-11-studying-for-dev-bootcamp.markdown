@@ -105,8 +105,8 @@ understanding in the long run.
 
 ### Get a whiteboard ###
 
-Besides them just being great fun to draw on the provide a very
-accessible way to quickly talk a variety of different programming
+Besides being great fun to draw on, whiteboards provide a very
+accessible way to quickly talk through a variety of different programming
 problems.  Programmers love whiteboards as you can discuss functions,
 database schemas, site maps or even wireframe out designs.  Get a small
 one for your office or room.  Best purchase you could make beyond
