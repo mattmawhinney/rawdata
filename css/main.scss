@@ -9,7 +9,7 @@
 
 /* Breakpoints */
 
-$iphonefive: min-device-width 320px max-device-width 568px;
+$iphonefive: max-width 568px 4;
 $mobile: max-width 480px 4;
 
 /* Global */
@@ -29,6 +29,9 @@ body {
   min-height: 600px;
   @include media($mobile) {
     min-height: 350px;
+  }
+  @include media($iphonefive) {
+    background-color: #cccccc;
   }
 }
 

@@ -31,6 +31,9 @@ body {
   @media screen and (max-width: 480px) {
     .color_bio {
       min-height: 350px; } }
+  @media screen and (max-width: 568px) {
+    .color_bio {
+      background-color: #cccccc; } }
 
 .color_blog {
   background-color: #FFFEC6;
