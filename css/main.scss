@@ -7,6 +7,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Slab:400,300);
 
+/* Breakpoints */
+
+$mobile: max-width 480px 4;
+
 /* Global */
 
 body {
@@ -20,12 +24,12 @@ body {
 }
 
 .color_bio {
-  background-color: #16a085;
+  background-color: #96B49C;
   min-height: 600px;
 }
 
 .color_blog {
-  background-color: #3498db;
+  background-color: #FFFEC6;
   min-height: 560px;
 }
 
@@ -33,7 +37,7 @@ a {
   text-decoration: none;
   color: #000000;
   &:hover {
-    color: #c0392b;
+    color: #CC5D4C;
   }
 }
 
@@ -44,7 +48,10 @@ a {
   @include pad();
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 64px;
+  font-size: 72px;
+  @include breakpoint($mobile) {
+    font-size: 48px;
+  }
 }
 
 .bio {
@@ -109,7 +116,7 @@ a {
 
 }
 
-.title {
+.title_blog {
   @include span-columns(8);
   @include shift(2);
   font-size: 48px;

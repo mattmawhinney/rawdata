@@ -21,12 +21,12 @@ body {
 }
 
 .post_color {
-  background-color: #3498db;
+  background-color: #FFFEC6;
   min-height: 780px;
 }
 
 a {
-  color: #c0392b;
+  color: #CC5D4C;
   text-decoration: none;
   &:hover {
   }
@@ -37,7 +37,7 @@ a {
 
 .decorator {
   min-height: 15px;
-  background-color: #16a085;
+  background-color: #96B49C;
 }
 
 /* Post Title */
@@ -67,7 +67,7 @@ p.meta {
   @include shift(5);
   @include pad(15px 10px 10px 10px);
   width: 160px;
-  background-color: #CCCCCC;
+  background-color: #5B5847;
   height: 58px;
 }
 

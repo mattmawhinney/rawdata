@@ -7,6 +7,7 @@
   box-sizing: border-box; }
 
 /* Google Fonts */
+/* Breakpoints */
 /* Global */
 body {
   padding: 0;
@@ -25,18 +26,18 @@ body {
     clear: both; }
 
 .color_bio {
-  background-color: #16a085;
+  background-color: #96B49C;
   min-height: 600px; }
 
 .color_blog {
-  background-color: #3498db;
+  background-color: #FFFEC6;
   min-height: 560px; }
 
 a {
   text-decoration: none;
   color: #000000; }
   a:hover {
-    color: #c0392b; }
+    color: #CC5D4C; }
 
 /* Index Heading */
 .title {
@@ -47,9 +48,12 @@ a {
   padding: 2.35765%;
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 64px; }
+  font-size: 72px; }
   .title:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .title {
+      font-size: 48px; } }
 
 .bio {
   display: block;
@@ -141,7 +145,7 @@ a {
     width: 100px;
     background-color: #000000; }
 
-.title {
+.title_blog {
   display: block;
   float: left;
   margin-right: 2.35765%;
@@ -149,7 +153,7 @@ a {
   margin-left: 17.05961%;
   font-size: 48px;
   text-align: center; }
-  .title:last-child {
+  .title_blog:last-child {
     margin-right: 0; }
 
 .date {
