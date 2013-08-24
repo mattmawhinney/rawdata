@@ -10,7 +10,7 @@
 
 /* Breakpoint */
 
-$mobile: max-width 480px 4;
+$iphonefive: max-width 568px 4;
 
 /* Global */
 
@@ -62,7 +62,7 @@ p.meta {
 .post {
   @include span-columns(6);
   @include shift(3);
-  @include breakpoint($mobile) {
+  @include media($iphonefive) {
     font-size: 15px;
     @include span-columns(4);
     @include pad(0 20px 0px 20px);
@@ -79,8 +79,8 @@ p.meta {
   width: 160px;
   background-color: #5B5847;
   height: 58px;
-  @include breakpoint($mobile) {
-    margin: 20px 0px 40px 160px;
+  @include media($iphonefive) {
+    margin: 20px 0px 40px 80px;
     width: 160px;
   }
 }
@@ -99,7 +99,7 @@ a.back {
   @include span-columns(6);
   @include shift(3);
   @include pad();
-  @include breakpoint($mobile) {
+  @include media($iphonefive) {
     font-size: 15px;
     @include span-columns(4);
     @include pad(0 20px 0px 20px);

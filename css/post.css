@@ -61,7 +61,7 @@ p.meta {
   margin-left: 25.58941%; }
   .post:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 568px) {
     .post {
       font-size: 15px;
       display: block;
@@ -86,9 +86,9 @@ p.meta {
   height: 58px; }
   .button:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 568px) {
     .button {
-      margin: 20px 0px 40px 160px;
+      margin: 20px 0px 40px 80px;
       width: 160px; } }
 
 a.back {
@@ -108,7 +108,7 @@ a.back {
   padding: 2.35765%; }
   .comments:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 568px) {
     .comments {
       font-size: 15px;
       display: block;
