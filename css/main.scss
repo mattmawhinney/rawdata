@@ -9,6 +9,7 @@
 
 /* Breakpoints */
 
+$iphone5: device-aspect-ratio 40/71;
 $mobile: max-width 480px 4;
 
 /* Global */
@@ -28,6 +29,9 @@ body {
   min-height: 600px;
   @include breakpoint($mobile) {
     min-height: 350px;
+  }
+  @include breakpoint($iphone5) {
+    background-color: #CCCCCC;
   }
 }
 
