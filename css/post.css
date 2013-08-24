@@ -7,6 +7,7 @@
   box-sizing: border-box; }
 
 /* Google Fonts */
+/* Breakpoint */
 /* Global */
 body {
   padding: 0;
@@ -60,6 +61,17 @@ p.meta {
   margin-left: 25.58941%; }
   .post:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .post {
+      font-size: 15px;
+      display: block;
+      float: left;
+      margin-right: 7.42297%;
+      width: 100%;
+      padding: 0 20px 0px 20px;
+      margin: auto; }
+      .post:last-child {
+        margin-right: 0; } }
 
 /* The Button */
 .button {
@@ -74,6 +86,10 @@ p.meta {
   height: 58px; }
   .button:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .button {
+      margin: 20px 0px 40px 160px;
+      width: 160px; } }
 
 a.back {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -92,3 +108,14 @@ a.back {
   padding: 2.35765%; }
   .comments:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .comments {
+      font-size: 15px;
+      display: block;
+      float: left;
+      margin-right: 7.42297%;
+      width: 100%;
+      padding: 0 20px 0px 20px;
+      margin: auto; }
+      .comments:last-child {
+        margin-right: 0; } }

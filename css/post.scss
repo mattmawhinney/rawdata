@@ -8,6 +8,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto+Slab:400,300);
 
+/* Breakpoint */
+
+$mobile: max-width 480px 4;
+
 /* Global */
 
 body {
@@ -58,6 +62,12 @@ p.meta {
 .post {
   @include span-columns(6);
   @include shift(3);
+  @include breakpoint($mobile) {
+    font-size: 15px;
+    @include span-columns(4);
+    @include pad(0 20px 0px 20px);
+    margin: auto;
+  }
 }
 
 /* The Button */
@@ -69,6 +79,10 @@ p.meta {
   width: 160px;
   background-color: #5B5847;
   height: 58px;
+  @include breakpoint($mobile) {
+    margin: 20px 0px 40px 160px;
+    width: 160px;
+  }
 }
 
 a.back {
@@ -85,4 +99,10 @@ a.back {
   @include span-columns(6);
   @include shift(3);
   @include pad();
+  @include breakpoint($mobile) {
+    font-size: 15px;
+    @include span-columns(4);
+    @include pad(0 20px 0px 20px);
+    margin: auto;
+  }
 }
