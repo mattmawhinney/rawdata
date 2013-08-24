@@ -31,9 +31,6 @@ body {
   @media screen and (max-width: 480px) {
     .color_bio {
       min-height: 350px; } }
-  @media screen and (device-aspect-ratio: 40 / 71) {
-    .color_bio {
-      background-color: #CCCCCC; } }
 
 .color_blog {
   background-color: #FFFEC6;

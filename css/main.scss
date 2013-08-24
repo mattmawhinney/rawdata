@@ -9,7 +9,7 @@
 
 /* Breakpoints */
 
-$iphone5: device-aspect-ratio 40/71;
+$iphonefive: min-device-width 320px max-device-width 568px;
 $mobile: max-width 480px 4;
 
 /* Global */
@@ -18,8 +18,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Slab', serif;
-  @include media($mobile);
-  @include media($iphone5);
 }
 
 .header {
@@ -31,9 +29,6 @@ body {
   min-height: 600px;
   @include media($mobile) {
     min-height: 350px;
-  }
-  @include media($iphone5) {
-    background-color: #CCCCCC;
   }
 }
 
@@ -69,6 +64,7 @@ a {
 .bio {
   @include span-columns(12);
   @include pad();
+  @include media($iphonefive);
 }
 
 .bio p {
@@ -113,6 +109,7 @@ a {
       margin-right: 0px;
     }
   }
+  @include media($iphonefive);
 }
 
 /* Blog Post Summaries */
@@ -144,6 +141,7 @@ a {
        left: 40%;
      }
   }
+  @include media($iphonefive);
 }
 
 .title_blog {
@@ -155,6 +153,7 @@ a {
   @include media($mobile) {
     font-size: 36px;
   }
+  @include media($iphonefive);
 }
 
 .date {
@@ -167,6 +166,7 @@ a {
     padding-right: 5px;
     width: auto;
   }
+  @include media($iphonefive);
 }
 
 .excerpt {
@@ -180,6 +180,7 @@ a {
   @include media($mobile) {
     font-size: 15px;
   }
+  @include media($iphonefive);
 }
 
 .read_more {
@@ -189,4 +190,3 @@ a {
   text-align: right;
   font-weight: bold;
 }
-
