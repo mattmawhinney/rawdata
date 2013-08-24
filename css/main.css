@@ -35,6 +35,9 @@ body {
 .color_blog {
   background-color: #FFFEC6;
   min-height: 560px; }
+  @media screen and (max-width: 480px) {
+    .color_blog {
+      min-height: 400px; } }
 
 a {
   text-decoration: none;
@@ -79,9 +82,9 @@ a {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
     .bio p {
-      font-size: 14px;
+      font-size: 15px;
       padding: 10px;
-      margin-top: 55px; } }
+      margin-top: 50px; } }
 
 .curly_beg, .curly_end {
   font-size: 150px;
@@ -158,6 +161,11 @@ a {
     left: 45%;
     width: 100px;
     background-color: #000000; }
+  @media screen and (max-width: 480px) {
+    .blog_summaries h1 {
+      font-size: 48px; }
+    .blog_summaries h1:after {
+      left: 40%; } }
 
 .title_blog {
   display: block;
@@ -170,6 +178,9 @@ a {
   margin-bottom: 10px; }
   .title_blog:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .title_blog {
+      font-size: 36px; } }
 
 .date {
   display: block;
@@ -179,9 +190,13 @@ a {
   margin-left: 17.05961%;
   text-align: right;
   border-right: solid 5px;
-  padding-right: 2px; }
+  padding-right: 5px; }
   .date:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .date {
+      padding-right: 5px;
+      width: auto; } }
 
 .excerpt {
   display: block;
@@ -195,6 +210,9 @@ a {
   .excerpt p {
     padding: 0px;
     margin: 0px; }
+  @media screen and (max-width: 480px) {
+    .excerpt {
+      font-size: 15px; } }
 
 .read_more {
   display: block;

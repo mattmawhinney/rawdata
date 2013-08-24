@@ -35,7 +35,7 @@ body {
   background-color: #FFFEC6;
   min-height: 560px;
   @include breakpoint($mobile) {
-
+    min-height: 400px;
   }
 }
 
@@ -71,9 +71,9 @@ a {
   text-align: center;
   font-size: 20px;
   @include breakpoint($mobile) {
-    font-size: 14px;
+    font-size: 15px;
     @include pad(10px);
-    margin-top: 55px;
+    margin-top: 50px;
   }
 }
 
@@ -130,7 +130,14 @@ a {
     width: 100px;
     background-color: #000000;
   }
-
+  @include breakpoint($mobile) {
+     h1 {
+       font-size: 48px;
+     }
+     h1:after {
+       left: 40%;
+     }
+  }
 }
 
 .title_blog {
@@ -139,6 +146,9 @@ a {
   font-size: 48px;
   text-align: center;
   margin-bottom: 10px;
+  @include breakpoint($mobile) {
+    font-size: 36px;
+  }
 }
 
 .date {
@@ -146,7 +156,11 @@ a {
   @include shift(2);
   text-align: right;
   border-right: solid 5px;
-  padding-right: 2px;
+  padding-right: 5px;
+  @include breakpoint($mobile) {
+    padding-right: 5px;
+    width: auto;
+  }
 }
 
 .excerpt {
@@ -156,6 +170,9 @@ a {
   p {
     padding: 0px;
     margin: 0px;
+  }
+  @include breakpoint($mobile) {
+    font-size: 15px;
   }
 }
 
