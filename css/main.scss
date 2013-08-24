@@ -26,11 +26,17 @@ body {
 .color_bio {
   background-color: #96B49C;
   min-height: 600px;
+  @include breakpoint($mobile) {
+    min-height: 350px;
+  }
 }
 
 .color_blog {
   background-color: #FFFEC6;
   min-height: 560px;
+  @include breakpoint($mobile) {
+
+  }
 }
 
 a {
@@ -64,12 +70,20 @@ a {
   @include span-columns(6 of 12);
   text-align: center;
   font-size: 20px;
+  @include breakpoint($mobile) {
+    font-size: 14px;
+    @include pad(10px);
+    margin-top: 55px;
+  }
 }
 
 .curly_beg {
   font-size: 150px;
   @include span-columns(3 of 12);
   text-align: right;
+  @include breakpoint($mobile) {
+    font-size: 175px;
+  }
 }
 
 .curly_end {
@@ -89,6 +103,9 @@ a {
   }
   a {
     @include span-columns(3);
+    @include breakpoint($mobile) {
+      margin-right: 0px;
+    }
   }
 }
 
@@ -121,6 +138,7 @@ a {
   @include shift(2);
   font-size: 48px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .date {
