@@ -59,7 +59,8 @@ a {
     margin-right: 0; }
   @media screen and (max-width: 568px) {
     .title {
-      font-size: 60px; } }
+      font-size: 60px;
+      margin-bottom: -20px; } }
 
 .bio {
   display: block;
@@ -84,7 +85,7 @@ a {
     .bio p {
       font-size: 14px;
       padding: 5px;
-      margin-top: 42px; } }
+      margin-top: 55px; } }
 
 .curly_beg, .curly_end {
   font-size: 150px;
@@ -97,7 +98,8 @@ a {
     margin-right: 0; }
   @media screen and (max-width: 568px) {
     .curly_beg, .curly_end {
-      font-size: 175px; } }
+      font-size: 230px;
+      margin-left: -3px; } }
 
 .curly_end {
   text-align: left; }
@@ -139,6 +141,9 @@ a {
         width: 19.43277%; }
         .links a:last-child {
           margin-right: 0; } }
+  @media screen and (max-width: 568px) {
+    .links {
+      padding: 10px; } }
 
 /* Blog Post Summaries */
 .blog_summaries {

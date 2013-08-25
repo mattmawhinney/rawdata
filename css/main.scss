@@ -57,6 +57,7 @@ a {
   font-size: 72px;
   @include media($iphonefive) {
     font-size: 60px;
+    margin-bottom: -20px;
   }
 }
 
@@ -73,7 +74,7 @@ a {
   @include media($iphonefive) {
     font-size: 14px;
     @include pad(5px);
-    margin-top: 42px;
+    margin-top: 55px;
   }
 }
 
@@ -82,7 +83,8 @@ a {
   @include span-columns(3 of 12);
   text-align: right;
   @include media($iphonefive) {
-    font-size: 175px;
+    font-size: 230px;
+    margin-left: -3px;
   }
 }
 
@@ -111,6 +113,9 @@ a {
       margin-top: -25px;
       @include span-columns(1);
     }
+  }
+  @include media($iphonefive) {
+    @include pad(10px);
   }
 }
 
